@@ -1,0 +1,72 @@
+2026-10-17 20:31:49,367 ERROR Bluetooth toggle failed: Disable-PnpDevice : ��騩 ᡮ�. 
+��ப�:3 ����:1
++ Disable-PnpDevice -InstanceId 'BTHENUM\{0000110E-0000-1000-8000-00805 ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Win32_PnPEntity...8000-00805F...):ROOT\cimv2\Win32_PnPEntity) [Disable-Pn 
+   pDevice], CimException
+    + FullyQualifiedErrorId : HRESULT 0x80041001,Disable-PnpDevice
+Traceback (most recent call last):
+  File "E:\BluetoothToggle\bluetooth_toggle.py", line 117, in <module>
+    toggle()
+    ~~~~~~^^
+  File "E:\BluetoothToggle\bluetooth_toggle.py", line 104, in toggle
+    run_powershell(script)
+    ~~~~~~~~~~~~~~^^^^^^^^
+  File "E:\BluetoothToggle\bluetooth_toggle.py", line 39, in run_powershell
+    raise RuntimeError(message or f"PowerShell exited with code {result.returncode}")
+RuntimeError: Disable-PnpDevice : ��騩 ᡮ�. 
+��ப�:3 ����:1
++ Disable-PnpDevice -InstanceId 'BTHENUM\{0000110E-0000-1000-8000-00805 ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Win32_PnPEntity...8000-00805F...):ROOT\cimv2\Win32_PnPEntity) [Disable-Pn 
+   pDevice], CimException
+    + FullyQualifiedErrorId : HRESULT 0x80041001,Disable-PnpDevice
+2026-10-17 20:32:08,617 ERROR Bluetooth toggle failed: Disable-PnpDevice : ��騩 ᡮ�. 
+��ப�:3 ����:1
++ Disable-PnpDevice -InstanceId 'BTHENUM\{0000110E-0000-1000-8000-00805 ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Win32_PnPEntity...8000-00805F...):ROOT\cimv2\Win32_PnPEntity) [Disable-Pn 
+   pDevice], CimException
+    + FullyQualifiedErrorId : HRESULT 0x80041001,Disable-PnpDevice
+Traceback (most recent call last):
+  File "E:\BluetoothToggle\bluetooth_toggle.py", line 117, in <module>
+    toggle()
+    ~~~~~~^^
+  File "E:\BluetoothToggle\bluetooth_toggle.py", line 104, in toggle
+    run_powershell(script)
+    ~~~~~~~~~~~~~~^^^^^^^^
+  File "E:\BluetoothToggle\bluetooth_toggle.py", line 39, in run_powershell
+    raise RuntimeError(message or f"PowerShell exited with code {result.returncode}")
+RuntimeError: Disable-PnpDevice : ��騩 ᡮ�. 
+��ப�:3 ����:1
++ Disable-PnpDevice -InstanceId 'BTHENUM\{0000110E-0000-1000-8000-00805 ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Win32_PnPEntity...8000-00805F...):ROOT\cimv2\Win32_PnPEntity) [Disable-Pn 
+   pDevice], CimException
+    + FullyQualifiedErrorId : HRESULT 0x80041001,Disable-PnpDevice
+2026-10-17 20:34:54,590 INFO Disable-PnpDevice �࠭ᯮ�� AVRCP Fosi Audio BT20A PRO (BTHENUM\{0000110E-0000-1000-8000-00805F9B34FB}_VID&000210D6_PID&B009\B&8B3D9EE&0&F44EFDCAF884_C00000000); previous status=OK; matching devices=2
+2026-10-17 20:35:17,560 INFO Enable-PnpDevice �࠭ᯮ�� AVRCP Fosi Audio BT20A PRO (BTHENUM\{0000110E-0000-1000-8000-00805F9B34FB}_VID&000210D6_PID&B009\B&8B3D9EE&0&F44EFDCAF884_C00000000); previous status=Error; matching devices=2
+2026-10-17 20:36:21,609 INFO Disable-PnpDevice �࠭ᯮ�� AVRCP Fosi Audio BT20A PRO (BTHENUM\{0000110E-0000-1000-8000-00805F9B34FB}_VID&000210D6_PID&B009\B&8B3D9EE&0&F44EFDCAF884_C00000000); previous status=OK; matching devices=2
+2026-10-17 20:37:12,272 INFO Enable-PnpDevice �࠭ᯮ�� AVRCP Fosi Audio BT20A PRO (BTHENUM\{0000110E-0000-1000-8000-00805F9B34FB}_VID&000210D6_PID&B009\B&8B3D9EE&0&F44EFDCAF884_C00000000); previous status=Error; matching devices=2
+2026-10-17 20:41:12,910 INFO Disable-PnpDevice �࠭ᯮ�� AVRCP Fosi Audio BT20A PRO (BTHENUM\{0000110E-0000-1000-8000-00805F9B34FB}_VID&000210D6_PID&B009\B&8B3D9EE&0&F44EFDCAF884_C00000000); previous status=OK; matching devices=2
+2026-10-17 20:41:56,242 INFO Enable-PnpDevice �࠭ᯮ�� AVRCP Fosi Audio BT20A PRO (BTHENUM\{0000110E-0000-1000-8000-00805F9B34FB}_VID&000210D6_PID&B009\B&8B3D9EE&0&F44EFDCAF884_C00000000); previous status=Error; matching devices=2
+2026-10-17 20:42:04,341 INFO Disable-PnpDevice �࠭ᯮ�� AVRCP Fosi Audio BT20A PRO (BTHENUM\{0000110E-0000-1000-8000-00805F9B34FB}_VID&000210D6_PID&B009\B&8B3D9EE&0&F44EFDCAF884_C00000000); previous status=OK; matching devices=2
+2026-10-17 20:45:04,808 INFO Enable-PnpDevice �࠭ᯮ�� AVRCP Fosi Audio BT20A PRO (BTHENUM\{0000110E-0000-1000-8000-00805F9B34FB}_VID&000210D6_PID&B009\B&8B3D9EE&0&F44EFDCAF884_C00000000); previous status=Error; matching devices=2
+2026-10-17 20:47:31,585 INFO Disable-PnpDevice �࠭ᯮ�� AVRCP Fosi Audio BT20A PRO (BTHENUM\{0000110E-0000-1000-8000-00805F9B34FB}_VID&000210D6_PID&B009\B&8B3D9EE&0&F44EFDCAF884_C00000000); previous status=OK; matching devices=2
+2026-10-17 20:48:24,339 INFO Enable-PnpDevice �࠭ᯮ�� AVRCP Fosi Audio BT20A PRO (BTHENUM\{0000110E-0000-1000-8000-00805F9B34FB}_VID&000210D6_PID&B009\B&8B3D9EE&0&F44EFDCAF884_C00000000); previous status=Error; matching devices=2
+2026-10-17 20:52:11,928 INFO Disable-PnpDevice �࠭ᯮ�� AVRCP Fosi Audio BT20A PRO (BTHENUM\{0000110E-0000-1000-8000-00805F9B34FB}_VID&000210D6_PID&B009\B&8B3D9EE&0&F44EFDCAF884_C00000000); previous status=OK; matching devices=2
+2026-10-17 20:52:20,034 INFO Enable-PnpDevice �࠭ᯮ�� AVRCP Fosi Audio BT20A PRO (BTHENUM\{0000110E-0000-1000-8000-00805F9B34FB}_VID&000210D6_PID&B009\B&8B3D9EE&0&F44EFDCAF884_C00000000); previous status=Error; matching devices=2
+2026-10-17 20:52:31,189 INFO Disable-PnpDevice �࠭ᯮ�� AVRCP Fosi Audio BT20A PRO (BTHENUM\{0000110E-0000-1000-8000-00805F9B34FB}_VID&000210D6_PID&B009\B&8B3D9EE&0&F44EFDCAF884_C00000000); previous status=OK; matching devices=2
+2026-10-17 20:52:39,881 INFO Enable-PnpDevice �࠭ᯮ�� AVRCP Fosi Audio BT20A PRO (BTHENUM\{0000110E-0000-1000-8000-00805F9B34FB}_VID&000210D6_PID&B009\B&8B3D9EE&0&F44EFDCAF884_C00000000); previous status=Error; matching devices=2
+2026-10-18 13:44:06,039 INFO Disable-PnpDevice �࠭ᯮ�� AVRCP Fosi Audio BT20A PRO (BTHENUM\{0000110E-0000-1000-8000-00805F9B34FB}_VID&000210D6_PID&B009\B&8B3D9EE&0&F44EFDCAF884_C00000000); previous status=OK; matching devices=2
+2026-10-20 21:24:52,714 INFO Enable-PnpDevice �࠭ᯮ�� AVRCP Fosi Audio BT20A PRO (BTHENUM\{0000110E-0000-1000-8000-00805F9B34FB}_VID&000210D6_PID&B009\B&8B3D9EE&0&F44EFDCAF884_C00000000); previous status=Error; matching devices=2
+2026-10-27 09:59:57,714 INFO Disable-PnpDevice �࠭ᯮ�� AVRCP Fosi Audio BT20A PRO (BTHENUM\{0000110E-0000-1000-8000-00805F9B34FB}_VID&000210D6_PID&B009\B&8B3D9EE&0&F44EFDCAF884_C00000000); previous status=OK; matching devices=2
+2026-11-01 21:28:14,288 INFO Enable-PnpDevice �࠭ᯮ�� AVRCP Fosi Audio BT20A PRO (BTHENUM\{0000110E-0000-1000-8000-00805F9B34FB}_VID&000210D6_PID&B009\B&8B3D9EE&0&F44EFDCAF884_C00000000); previous status=Error; matching devices=2
+2026-11-07 20:21:06,124 INFO Disable-PnpDevice �࠭ᯮ�� AVRCP Fosi Audio BT20A PRO (BTHENUM\{0000110E-0000-1000-8000-00805F9B34FB}_VID&000210D6_PID&B009\B&8B3D9EE&0&F44EFDCAF884_C00000000); previous status=OK; matching devices=2
+2026-11-11 22:00:44,314 INFO Enable-PnpDevice �࠭ᯮ�� AVRCP Fosi Audio BT20A PRO (BTHENUM\{0000110E-0000-1000-8000-00805F9B34FB}_VID&000210D6_PID&B009\B&8B3D9EE&0&F44EFDCAF884_C00000000); previous status=Error; matching devices=2
+2026-11-11 22:00:56,174 INFO Disable-PnpDevice �࠭ᯮ�� AVRCP Fosi Audio BT20A PRO (BTHENUM\{0000110E-0000-1000-8000-00805F9B34FB}_VID&000210D6_PID&B009\B&8B3D9EE&0&F44EFDCAF884_C00000000); previous status=OK; matching devices=2
+2026-11-11 22:01:06,887 INFO Enable-PnpDevice �࠭ᯮ�� AVRCP Fosi Audio BT20A PRO (BTHENUM\{0000110E-0000-1000-8000-00805F9B34FB}_VID&000210D6_PID&B009\B&8B3D9EE&0&F44EFDCAF884_C00000000); previous status=Error; matching devices=2
+2026-11-11 22:01:10,978 INFO Disable-PnpDevice �࠭ᯮ�� AVRCP Fosi Audio BT20A PRO (BTHENUM\{0000110E-0000-1000-8000-00805F9B34FB}_VID&000210D6_PID&B009\B&8B3D9EE&0&F44EFDCAF884_C00000000); previous status=OK; matching devices=2
+2026-11-11 22:01:16,820 INFO Enable-PnpDevice �࠭ᯮ�� AVRCP Fosi Audio BT20A PRO (BTHENUM\{0000110E-0000-1000-8000-00805F9B34FB}_VID&000210D6_PID&B009\B&8B3D9EE&0&F44EFDCAF884_C00000000); previous status=Error; matching devices=2
+2026-11-11 22:01:24,690 INFO Disable-PnpDevice �࠭ᯮ�� AVRCP Fosi Audio BT20A PRO (BTHENUM\{0000110E-0000-1000-8000-00805F9B34FB}_VID&000210D6_PID&B009\B&8B3D9EE&0&F44EFDCAF884_C00000000); previous status=OK; matching devices=2
+2026-11-11 22:01:38,673 INFO Enable-PnpDevice �࠭ᯮ�� AVRCP Fosi Audio BT20A PRO (BTHENUM\{0000110E-0000-1000-8000-00805F9B34FB}_VID&000210D6_PID&B009\B&8B3D9EE&0&F44EFDCAF884_C00000000); previous status=Error; matching devices=2
